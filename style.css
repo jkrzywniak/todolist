@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+}
+  
+*{
+    box-sizing: border-box;
+    font-family: 'Glegoo', sans-serif;
+}
+
+div{
+    padding: 15px;
+}
+
+h1{
+    padding: 10px;
+}
+
+
+.searchbar, .addElement{
+    text-align: center;
+}
+
+input {
+    border: 2px solid #40da19;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 20px;
+    margin-right: 4%;
+    transition-duration: 0.4s;
+}
+
+#search{
+    width: 100%;
+    margin: 0;
+}
+
+.addElement input[type=text]{
+    width: 50%;
+}
+
+.addElement input[type=date]{
+    width: 25%;
+}
+  
+input:focus {
+    background-color: #40da19;
+}
+
+.btn{
+    background-color: white;
+    font-size: 16px;
+    padding: 12px;
+    text-decoration-style:solid;
+    border: 2px solid #40da19;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    width: 15%;
+}
+
+.btnDel{
+    background-color: white;
+    font-size: 16px;
+    padding: 12px;
+    text-decoration-style:solid;
+    border: 2px solid #40da19;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+
+.btn:hover, .btnDel:hover{
+    background-color: #40da19;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #40da19;
+    color: white;
+  }
+
+  .cent90{
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .firstCol{
+    width: 70%;
+    max-width: 70%;
+    word-wrap: break-word;
+  }
+
+  .lastCol{
+    width: 10%;
+  }

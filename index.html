@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO LIST - lab3-4</title>
+        <meta name="author" content="Jacek Krzywniak">
+        <meta charset="utf-8">
+        <link href='http://fonts.googleapis.com/css?family=Glegoo&subset=latin,latin-ext' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body onload="showAll()">
+        <h1>Zadania do wykonania</h1>
+        <div class="searchbar cent90">
+            <input type="text" id="search" onkeyup="search()" placeholder="wpisz frazę do wyszukania" >
+        </div>
+        <div class="list cent90">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="firstCol">Zadanie</th>
+                        <th>Data</th>
+                        <th class="lastCol">Akcja</th>
+                    </tr>
+                </thead>
+                <tbody id="tasks">
+                    <!-- lista zadań wyświetli się w tym miejscu -->
+                </tbody>
+            </table>
+        </div>
+        <div class="addElement cent90">
+            <hr>
+            <h3>Dodaj nowy element</h3>
+            <input type="text" id="newItemText" placeholder="treść">
+            <input type="date" id="date" >
+            <button class="btn" onclick="addElement()">Dodaj!</button>
+        </div>
+    </body>
+</html>
